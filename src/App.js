@@ -27,6 +27,7 @@ function App() {
         <div className="m-5 box-shadow">
             <FreeSpace />
             <div className="min-h-screen flex justify-center items-center flex-wrap">
+                <h1>Weather forecast</h1>
                 {cities.map((city, index) => (
                     <Weather
                         kyes={index}
